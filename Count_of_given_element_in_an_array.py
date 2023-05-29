@@ -1,8 +1,5 @@
 n =int(input())
 x = list(map(int, input().split()))
-a, c = int(input()), 0
-for i in x:
-    if i == a:
-        c += 1
-        
+a =  int(input())
+c = x.count(a)
 print(c)
